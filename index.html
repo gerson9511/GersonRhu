@@ -1,12 +1,435 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFirstPage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ingeniero en Sistemas">
+  <title>Gerson Rhu Botelho - Ingeniero en Sistemas</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <script src="https://kit.fontawesome.com/f406a7473d.js" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./js/mail.js"></script>
 </head>
+
 <body>
-    <p>Hello world😎</p>
+  <header id="header">
+    <div class="logo">
+      <p class="header__logo--tittle">
+        < Gerson Rhu />
+      </p>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">Acerca de mi</a></li>
+        <li class="nav__item"><a href="#my-work" class="nav__link">Mi trabajo</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contactame</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hola, soy <strong> Gerson Rhu </strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      Ingeniero en Sistemas
+    </p>
+    <img src="./img/Yo.jpg" alt="Foto de Gerson Rhu Botelho" class="intro__img" />
+    <nav class="section__submenu">
+      <ul class="section__submenu--list">
+        <li class="submenu__list--item">
+          <a href="#services" class="submenu__list--link">Servicios</a>
+        </li>
+        <li class="submenu__list--item">
+          <a href="#about" class="submenu__list--link">Acerca de mi</a>
+        </li>
+        <li class="submenu__list--item">
+          <a href="#my-work" class="submenu__list--link">Mi trabajo</a>
+        </li>
+        </li>
+        <li class="submenu__list--item">
+          <a href="#contact" class="submenu__list--link">Contactame</a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+
+  <!-- Mis Servicios -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">¿Qué hago?</h2>
+    <div class="section__services">
+      <div class="services">
+        <div class="service">
+          <h3>Backend Development</h3>
+          <p>
+            Realizo toda la parte logica del sitio web agregando seguridad con
+            un codigo facil de mantener, integrando bases de datos con MySQL y Oracle
+          </p>
+          <p>
+            Desarrollo sitios web o servicios personalizados con PHP(Laravel)
+            C C# Java Script y Python e integraciones con cualquier plataforma o API
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Frontend Development</h3>
+          <p>
+            Construir una pagina visualmente atractiva y totalmente funcional
+            de acuerdo a las necesidades del cliente
+          </p>
+
+          <p>
+            Integraciones de HTML5 y CSS3 en una simple pagina y con frameworks
+            como VueJs con la libreria de Vuetify
+          </p>
+        </div>
+      </div>
+
+      <a href="#my-work" class="btn">Mi trabajo</a>
+      <div class="section__arrow--up">
+        <a href="#header" aria-label="go up to main section"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acerca de mi -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">¿Quien soy?</h2>
+    <p class="section__subtitle section__subtitle--about">
+      Ingeniero en Sistemas
+    </p>
+
+    <div class="aboute-me__body">
+      <p>
+        Soy un estudiante de la carrera de ingeniería en Sistemas de la Universidad Privada Franz Tamayo,
+        busco la oportunidad de colaborar en proyectos aplicando constantemente mis habilidades y
+        conocimientos utilizando técnicas y herramientas innovadoras, para convertirme en un experto
+        en el área Redes y Seguridad Informática, me apasiona la tecnología me gustan los retos y
+        nunca parar de aprender.
+      </p>
+      <p>
+        Soy de La Paz Bolivia, me gusta trabajar en equipo, utilizo plataformas de comunicación como
+        Slack, Discord, Telegram, Zoom, Meet, Teams y Webex. Puedo colaborar a las personas con proyectos
+        que interactuen con Realidad Virtual y Realidad Aumentada. Puedo implementar de seguridad en sus empresas
+        realizando pruebas de Pentesting con informes detallados de todas las vulnerabilidades encontradas.
+        Iluminacion inteligente, apertura de puertas y ventanas, Sistemas de Riego con Internet de las Cosas
+        con adquisicion de datos en la nube, control por voz y en una aplicación movil. Infraestructura de redes
+        configuración de Routers y Switches. Manejo de sistemas Operativos Linux. Diseño de paginas Web Dinamicas y
+        Estaticas.
+      </p>
+    </div>
+
+    <img src="./img/Yo.jpg" alt="Foto de Gerson Rhu Botelho" class="about-me__img" />
+
+    <ul class="social-list">
+      <li class="social__list--item">
+        <a href="https://www.facebook.com/jasan.rhu.3/" class="social__list--link"aria-label="Ir a mi perfil de Facebook"><i class="fab fa-facebook color-facebook"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://www.linkedin.com/in/gerson-rhu-botelho-000ab81b0/" class="social__list--link" aria-label="Ir a mi perfil de LinkedIn"><i class="fab fa-linkedin color-linkedin"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://twitter.com/RhuGerson" class="social__list--link" aria-label="Ir a mi perfil de twitter"><i class="fab fa-twitter color-twitter"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://join.skype.com/invite/OmMbea3zKD6W" class="social__list--link" aria-label="Empezar una conversacion en Skype"><i class="fab fa-skype color-skype"></i></a>
+      </li>      
+      <li class="social__list--item">
+        <a href="https://www.behance.net/gersonrhubotelho/" class="social__list--link" aria-label="Ir a mi perfil de Behance"><i class="fab fa-behance color-behance"></i></a>
+      </li>      
+      <li class="social__list--item">
+        <a href="https://twitter.com/RhuGerson" class="social__list--link" aria-label="Ir a mi perfil de instagram"><i class="fab fa-instagram color-instagram"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://api.whatsapp.com/send?phone=59168146005&text=Hola%20Gerson%20" class="social__list--link" aria-label="Empezar una conversacion en Whatsapp"><i class="fab fa-whatsapp color-whatsapp"></i></a>
+      </li>
+      <li class="social__list--item">
+        <a href="https://github.com/gerson9511" class="social__list--link" aria-label="Ir a mi perfil de GitHub"><i class="fab fa-github color-github"></i></a>
+      </li> 
+      <li class="social__list--item">
+        <a href="https://platzi.com/p/gersonrhu98/#_=_"><img class="social__list--link" src="./img/platzi.png" alt="LogoPlatzi"/></a>
+      </li>
+      <li class="social__list--item">
+        <a href="HojaDeVida-GersonRhu.pdf" class="social__list--link" data-toggle="tooltip" data-placement="bottom"
+          title="Descargar mi Hoja de vida!" target="_BLANK"><i class="fas fa-file-pdf color-acrobat"></i></a>
+      </li>
+      
+      
+    </ul>
+    <section class="my-skills" id="my-skills">
+      <h2 class="section__subtitle section__subtitle--about">Lenguajes de programacion y herramientas</h2>
+      <div class="marquee">
+        <ul class="marquee-content">
+          <li>
+            <img class="img-dotnet" src="./img/vb.png" alt="Visual Basic logo" />
+            <small>Visual Basic</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/csharp.png" alt="C sharp logo" />
+            <small>C#</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/mysql.jpg" alt="MySQL logo" />
+            <small>MySQL</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/php.jpg" alt="PHP logo" />
+            <small>PHP</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/laravel.jpg" alt="Laravel logo" />
+            <small>Laravel</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/Js.jpg" alt="JavaScript logo" />
+            <small>JavaScript</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/html.jpg" alt="HTML logo" />
+            <small>HTML5</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/css.jpg" alt="CSS logo" />
+            <small>CSS3</small>
+          </li>
+
+          <li>
+            <img class="img-dotnet" src="./img/github.jpg" alt="GitHub logo" />
+            <small>Git/Github</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/vue.jpg" alt="Vue logo" />
+            <small>VueJS</small>
+          </li>
+          <li>
+            <img class="img-dotnet" src="./img/proteus.png" alt="Proteus logo" />
+            <small>Proteus</small>
+          </li>
+        </ul>
+      </div>
+      <div class="section__arrow--up">
+        <a href="#header" aria-label="go up to main section"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </section>
+  </section>
+
+  <!-- Mi trabajo -->
+  <section class="my-work" id="my-work">
+    <h2 class="section__title">Mi trabajo</h2>
+    <p class="section__subtitle section__subtitle--work">
+      Algunos de mis proyectos
+    </p>
+
+    <div class="portfolio">
+      <!-- Proyecto 1 -->
+      <div class="wrapper">
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div id="billar" class="front">
+                <div class="inner">
+                  <p>Sistema de Billar</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner outer">
+                  <p>
+                    Aplicacion de escritorio desarrollada en C# para la compra y 
+                    venta de productos, reservas de mesas todo con facturación                   
+                  </p>
+                  <div class="my-work__cards--buttons">
+                    <a href="https://github.com/gerson9511/Billar.git" target="_blank"
+                      class="btn custom-btn-billar">Revisar Codigo</a>
+                  </div>
+
+                  <div class="my-work__cards--skills">
+                    <img class="img-dotnet" src="./img/csharp.png" alt="C sharp logo" />
+                    <img class="img-dotnet" src="./img/mysql.jpg" alt="MySQL logo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 1 -->
+      <div class="wrapper">
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div id="billar" class="front">
+                <div class="inner">
+                  <p>Sistema de Billar</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner outer">
+                  <p>
+                    Aplicacion de escritorio desarrollada en C# para la compra y 
+                    venta de productos, reservas de mesas todo con facturación                   
+                  </p>
+                  <div class="my-work__cards--buttons">
+                    <a href="https://github.com/gerson9511/Billar.git" target="_blank"
+                      class="btn custom-btn-billar">Revisar Codigo</a>
+                  </div>
+                  <div class="my-work__cards--skills">
+                    <img class="img-dotnet" src="./img/csharp.png" alt="C sharp logo" />
+                    <img class="img-dotnet" src="./img/mysql.jpg" alt="MySQL logo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 1 -->
+      <div class="wrapper">
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div id="billar" class="front">
+                <div class="inner">
+                  <p>Sistema de Billar</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner outer">
+                  <p>
+                    Aplicacion de escritorio desarrollada en C# para la compra y 
+                    venta de productos, reservas de mesas todo con facturación                   
+                  </p>
+                  <div class="my-work__cards--buttons">
+                    <a href="https://github.com/gerson9511/Billar.git" target="_blank"
+                      class="btn custom-btn-billar">Revisar Codigo</a>
+                  </div>
+
+                  <div class="my-work__cards--skills">
+                    <img class="img-dotnet" src="./img/csharp.png" alt="C sharp logo" />
+                    <img class="img-dotnet" src="./img/mysql.jpg" alt="MySQL logo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="wrapper">
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div id="gimnasio" class="front">
+                <div class="inner">
+                  <p>Gimnasio</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner outer">
+                  <p>
+                    Sistema Web registro de casilleros, reserva de horarios
+                    registro de clientes, con PHP y MySQL.
+                  </p>
+                  <div class="my-work__cards--buttons">
+                    <a href="https://github.com/gerson9511/Billar.git" target="_blank"
+                      class="btn custom-btn-billar">Revisar Codigo</a>
+                  </div>
+                  <div class="my-work__cards--skills">
+                    <img class="img-dotnet" src="./img/mysql.jpg" alt="MySQL logo" />
+                    <img class="img-dotnet" src="./img/php.jpg" alt="PHP logo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="section__arrow--up">
+      <a href="#header" aria-label="go up to main section"><i class="fas fa-angle-double-up"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="section__contact--footer">
+      <div class="contact--footer__info">
+        <h2 class="section__title--footer">Gerson Rhu </h2>
+        <p>
+          <a class="email" href="mailto:gersonrhu@gmail.com">gersonrhu@gmail.com</a>
+        </p>
+        <p id="contact__description">
+          Soy un desarrollador de Software. Yo puedo ayudar a resolver un problema,
+          construir un producto o hacer crecer un proyecto existente.
+        </p>
+      </div>
+      <div class="contact--footer__form">
+        <h3 id="contact__title">
+          Gracias por su tiempo.
+        </h3>
+        <h3 id="contact__subtitle">
+          ¿Como Puedo ayudarte hoy?
+        </h3>
+        <form>
+          <div class="contact__form">
+            <div class="contact__form--item">
+              <label class="contact__form--label" for="fullname">Tu nombre</label>
+            </div>
+            <div class="contact__form--item">
+              <label class="contact__form--label" for="email">E-mail</label>
+            </div>
+            <div class="contact__form--item">
+              <input type="text" class="contact__form--input" id="fullname" name="fullname" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Es necesario ingresar tu nombre</small>
+            </div>
+            <div class="contact__form--item">
+              <input type="email" class="contact__form--input" id="email" name="email" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Es necesario ingresar tu correo</small>
+            </div>
+            <div id="item--message" class="contact__form--item item--message">
+              <label class="contact__form--label" for="message">Mensaje</label>
+            </div>
+            <div class="contact__form--item item--message">
+              <textarea class="contact__form--input" id="message" name="message"></textarea>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Escribir un mensaje porfavor</small>
+            </div>
+          </div>
+          <div class="container">
+            <div class="">
+              <button id="contact__button" class="btn" onclick="sendEmail(); return false;">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="section__credits--footer">
+      <span>By Gerson Rhu Botelho Copyright © 2021</span>
+      <div class="section__arrow--up">
+        <a href="#header" aria-label="go up to main section"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+  <script src="./js/marquee.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </body>
+
 </html>
