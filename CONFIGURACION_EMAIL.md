@@ -78,7 +78,7 @@ SMTPJS es el servicio que actualmente estás usando. Para que funcione correctam
 1. **Generar un nuevo SecureToken**
    - Ve a https://smtpjs.com/
    - Haz clic en "Generate Secure Token"
-   - Ingresa tu email (gersonrhubdp@gmail.com)
+   - Ingresa tu email (gersonrhu@gmail.com)
    - Ingresa tu contraseña de Gmail (o contraseña de aplicación)
    - Copia el SecureToken generado
 
@@ -131,7 +131,7 @@ El código actual incluye:
 2. Ve a la sección de contacto
 3. Completa el formulario
 4. Haz clic en "Enviar"
-5. Verifica que recibes el email en gersonrhubdp@gmail.com
+5. Verifica que recibes el email en gersonrhu@gmail.com
 
 ---
 

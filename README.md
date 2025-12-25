@@ -1,15 +1,14 @@
 - 👋 Hi, My name is Gerson Rhu Botelho
-- 🧑‍💻 I study System Engineering at Franz Tamayo University
+- 🧑‍💻 I am System Engineering 
 - 👀 I’m interested in help animals 
 - 🌱 I’m currently learning on aditional courses of Cisco, Platzi, Udemy and another virtual platforms, every day I learn something new. 
-- 💞️ I’m looking to collaborate on projects with Security, Network, Internet of Things, Augmented Reality  
+- 💞️ I’m looking to collaborate on projects from RPA
 - 📫 How to reach me? 
 - 👾Social Network
-- [Facebook](https://www.facebook.com/jasan.rhu.3/)
+- [Facebook](https://www.facebook.com/gersonjasanrhubotelho/)
 - [LinkedIn](https://www.linkedin.com/in/gerson-rhu-botelho-000ab81b0/)
-- [Whatsapp](https://wa.link/77op3n)
+- [Whatsapp](https://api.whatsapp.com/send?phone=59168146005&text=Hola%20Gerson%20)
 - [Instagram](https://www.instagram.com/gerson_rhu/)
 - [Behance](https://www.behance.net/gersonrhubotelho)
 - [Twitter](https://twitter.com/RhuGerson)
-- [Mathlab](https://la.mathworks.com/matlabcentral/profile/authors/22598221)
 - [Platzi](https://platzi.com/p/gersonrhu98/)

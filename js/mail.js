@@ -23,9 +23,9 @@ const setClearAlert = (input) => {
 };
 
 // Configuración EmailJS
-const EMAILJS_SERVICE_ID = 'service_u9vrx78';
-const EMAILJS_TEMPLATE_ID = 'template_5vsmssw';
-const EMAILJS_PUBLIC_KEY = '4RwyjBOe-Aqqg2_Hq';
+const EMAILJS_SERVICE_ID = 'service_pnhysrs';
+const EMAILJS_TEMPLATE_ID = 'template_bw21pxa';
+const EMAILJS_PUBLIC_KEY = '_J2ybQwMCexEi1I-m';
 
 const checkInputs = (name, email, message) => {
   let result = true;
@@ -88,7 +88,7 @@ const sendEmail = () => {
       html: `
         <p>El servicio de email no está disponible.</p>
         <p>Por favor, recarga la página o contáctame directamente:</p>
-        <p><a href="mailto:gersonrhubdp@gmail.com" style="color: #4CAF50; font-weight: bold;">gersonrhubdp@gmail.com</a></p>
+        <p><a href="mailto:gersonrhu@gmail.com" style="color: #4CAF50; font-weight: bold;">gersonrhu@gmail.com</a></p>
       `,
       icon: "error",
       confirmButtonText: "OK"
@@ -144,7 +144,7 @@ const sendEmail = () => {
       html: `
         <p><strong>${errorMessage}</strong></p>
         <p style="margin-top: 15px;">Por favor, contáctame directamente:</p>
-        <p><a href="mailto:gersonrhubdp@gmail.com" style="color: #4CAF50; font-weight: bold;">gersonrhubdp@gmail.com</a></p>
+        <p><a href="mailto:gersonrhu@gmail.com" style="color: #4CAF50; font-weight: bold;">gersonrhu@gmail.com</a></p>
       `,
       icon: "error",
       confirmButtonText: "OK"
